@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+*{font-family: 'League Spartan', sans-serif;}
+h2{font-family: 'Satisfy', cursive;margin-top: 20px;font-size: 40px;}
+/* Css for Header starts */
+.header{background-color: #fff;position: fixed;top: 0;width: 100%;z-index: 2;}
+.header button.contact-now{background-color: #181d4e;
+  padding: 5px 20px !important;
+  color: #fff;
+  border: none;
+  border-radius: 100px;}
+.header .menu .navbar-brand{max-width: 150px;}
+.header .menu .nav-link{font-size: 19px;
+  margin: 0 20px;
+  font-weight: 600;
+  color: #151515;}
+.header .navbar-nav{align-items: center;}
+
+/* Css for Header ends */
+
+/* Css for Herosection Starts */
+
+.herosection{margin-top: 90px;background-image: url(./Components/images/best-collection-bg.jpg);background-repeat:no-repeat;height: 500px;background-size: 100% 100%;background-attachment: fixed;padding: 100px;text-align: center;position: relative;}
+.herosection:before{content: "";width: 100%;height: 100%;background: #0000008a;display: block;position: absolute;top: 0;left: 0; right: 0;bottom: 0;}
+.herosection h1{font-family: 'Satisfy', cursive;color: #fff;font-size: 60px;}
+.herosection p{max-width: 500px;margin: 0 auto;font-size: 22px;color: #fff;}
+
+/* Css for Herosection Ends */
+
+/* Css for Toy Category Starts */
+.toy-category{margin-top: 100px;}
+.toy-category .image{background-color: pink;border-radius: 20px;height: 400px;text-align: center;display: flex;align-items: center;justify-content: center;}
+.toy-category .image img{max-width: 80%;}
+
+/* Css for Toy Category Ends */
+
+/* Css for You Will Love Starts */
+
+.you-will-love .small-image{width: auto;overflow: hidden;margin-bottom: 15px;position: relative;}
+.you-will-love .large-image{position: relative;}
+.you-will-love .small-image:before,
+.you-will-love .large-image:before{content: "";width: 100%;height: 100%;background: #00000029;display: block;position: absolute;top: 0;left: 0;  right: 0;bottom: 0;}
+
+/* Css for You will love Ends */
+
+/* Css for Best Collection Starts */
+
+.best-collection{background-image: url(./Components/images/best-collection-bg.jpg);background-repeat:no-repeat;height: 500px;background-size: 100% 100%;background-attachment: fixed;}
+.best-collection button{padding: 5px 30px;background-color: #181d4e;color: #fff;border-radius: 100px;}
+.content.text-center {height: 500px;display: flex;align-items: center;justify-content: center;flex-direction: column; background: #00a1ffa3;padding: 50px;}
+.best-collection h2{font-size: 60px;color: #fff;}
+.best-collection p{font-size: 18px;color: #fff;margin-bottom: 50px;}
+
+/* Css for Best Collection Ends */
+
+/* Css for Kids Events Starts */
+
+.kids-events h2{color: #181d4e;font-size: 60px;}
+.kids-events p{color: #151515;margin-bottom: 40px;}
+.kids-events button{padding: 5px 50px;background-color: #181d4e;color: #fff;border-radius: 100px;}
+.kids-events .image{overflow: hidden;height: 630px;padding-right: 50px;}
+
+/* Css for Kids Events Ends */
+
+/* Css for Testimonials Starts */
+
+.testimonials{height: 500px;overflow: hidden;}
+.testimonials .image{height: 500px;overflow: hidden;}
+.testimonials .slider h2{color: #fff;margin-bottom: 25px;}
+.testimonials .slider{background-color: #181d4e;padding: 80px 100px 100px 100px;height: 500px;}
+.testimonials .profile-pic {width: 80px; height: 80px;overflow: hidden;border-radius: 100px;margin: 30px auto;}
+.testimonials .slider p{color: #fff;text-align: center;}
+
+/* Css for Testimonials Ends */
+
+/* Css for Popular Starts */
+
+.popular-items h3{font-family: 'Satisfy', cursive;margin-top: 10px;}
+.popular-items p{font-weight: 600;font-size: 18px;}
+
+/* Css for Popular Ends */
+
+/* Css for From Blog Starts */
+
+.fromblog p{max-width: 700px;margin: 20px auto 30px;}
+.fromblog .image{height: 400px;overflow: hidden;width: 400px;position: relative;}
+.fromblog .image:before{content: "";width: 90%;height: 90%;display: block;border: 2px dashed #fff;position: absolute;left: 50%;  top: 50%;transform: translate(-50% ,-50%); border-radius: 10px;}
+
+/* Css for From Blog Ends */
+
+/* Css for Footer Starts */
+
+.footer{background-color: #181d4e;}
+.footer h4{font-family: 'Satisfy', cursive; color: #fff;margin-bottom: 30px;}
+.footer ul li{margin-bottom: 20px;color: #fff;list-style: none;}
+.footer ul li a{display: block;color: #fff;font-size: 18px;text-decoration: none;position: relative;}
+.footer ul li a::before{content: ">>";position: absolute;left: -30px;}
+.footer .footer-info p{color: #fff;}
+img{max-width: 100%;}
+.footer .social-links {padding: 0px;}
+.footer .social-links a{padding: 10px;background-color: aqua;border-radius: 5px;margin-right: 10px;}
+.footer .social-links a i{color: #fff;}
+
+/* Css for Footer Ends */
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width:1200px){
+  .fromblog .image{width: 350px;}
+  .kids-events h2{font-size: 50px;}
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (max-width:992px){
+  .toy-category .image{height: 400px;}
+  .large-image{margin-bottom: 20px;}
+  .kids-events .image{padding-right: 10px;}
+  .kids-events h2{font-size: 40px;}
+  .fromblog .image{width: 300px;}
+  .footer h4{font-size: 22px;}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width:768px){
+  .fromblog .image{width: 500px;
+    height: 500px;
+    margin: 40px auto;}
+    .herosection{height: auto;}
+    .kids-events .matter{text-align: center;margin-top: 50px;}
+    .footer-links{text-align: center;margin-bottom: 50px;}
+    .footer{padding-bottom: 0px !important;}
+    .toy-category .image{height: 250px;}
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @media screen and (max-width:480px){
+    .fromblog .image{width: 400px;}
+    .toy-category .image img{max-width: 50%;}
+    .toy-category .image{margin-bottom: 50px;}
+    .testimonials .slider{padding: 50px;}
+    .fromblog .image{width: 360px;}
+    .herosection {padding: 20px;}
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+/* RESPONSIVE CSS */
+
+
