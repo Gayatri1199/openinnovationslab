@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/openinnovationslab/static/css/main.e8441e28.css",
+    "main.js": "/openinnovationslab/static/js/main.2fd029fb.js",
+    "static/js/787.add026d8.chunk.js": "/openinnovationslab/static/js/787.add026d8.chunk.js",
+    "static/media/kid4.jpg": "/openinnovationslab/static/media/kid4.d21c642514c4b7325d04.jpg",
+    "static/media/kids-events.jpg": "/openinnovationslab/static/media/kids-events.2a9713998daee1b213aa.jpg",
+    "static/media/kids-playing.jpg": "/openinnovationslab/static/media/kids-playing.93422abf3f0103d406c5.jpg",
+    "static/media/best-collection-bg.jpg": "/openinnovationslab/static/media/best-collection-bg.f36aab5335b094dd8ed6.jpg",
+    "static/media/blog-1.jpg": "/openinnovationslab/static/media/blog-1.3ad14066d9860cb16fc8.jpg",
+    "static/media/toy1.png": "/openinnovationslab/static/media/toy1.1c623f23f00a06bd66a3.png",
+    "static/media/footer-logo.png": "/openinnovationslab/static/media/footer-logo.31254f019e1c138b3f35.png",
+    "static/media/logo.png": "/openinnovationslab/static/media/logo.4264dd0e39fce9f4e2c3.png",
+    "index.html": "/openinnovationslab/index.html",
+    "main.e8441e28.css.map": "/openinnovationslab/static/css/main.e8441e28.css.map",
+    "main.2fd029fb.js.map": "/openinnovationslab/static/js/main.2fd029fb.js.map",
+    "787.add026d8.chunk.js.map": "/openinnovationslab/static/js/787.add026d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8441e28.css",
+    "static/js/main.2fd029fb.js"
+  ]
+}
